@@ -22,7 +22,7 @@ pod "interakt-ios"
 
 ## Author
 
-Nazish Ali, nazish.ali@quickli.com
+fizzysoftware, aggarwalsudhanshu@gmail.com
 
 ## License
 

@@ -2,8 +2,8 @@
 //  Interakt.h
 //  Interakt
 //
-//  Created by Quickli on 18/10/16.
-//  Copyright © 2016 Quickli. All rights reserved.
+//  Created by Interakt on 18/10/16.
+//  Copyright © 2016 Interakt. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

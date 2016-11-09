@@ -2,8 +2,8 @@
 //  DeviceLibrary.h
 //  DeviceLibrary
 //
-//  Created by Quickli on 18/07/16.
-//  Copyright © 2016 Quickli. All rights reserved.
+//  Created by Interakt on 18/07/16.
+//  Copyright © 2016 Interakt. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
