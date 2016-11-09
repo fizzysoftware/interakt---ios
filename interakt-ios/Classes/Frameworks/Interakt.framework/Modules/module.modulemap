@@ -1,0 +1,6 @@
+framework module Interakt {
+  umbrella header "Interakt.h"
+
+  export *
+  module * { export * }
+}

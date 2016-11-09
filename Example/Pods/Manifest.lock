@@ -1,0 +1,16 @@
+PODS:
+  - interakt-ios (0.1.0)
+
+DEPENDENCIES:
+  - interakt-ios (from `../`)
+
+EXTERNAL SOURCES:
+  interakt-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  interakt-ios: 2c9d924f1b777984ed15f2b0c2a435464c86d7d9
+
+PODFILE CHECKSUM: 7eb1b6f931954400e7f2f470ffe9d7b6be833ecd
+
+COCOAPODS: 1.2.0.beta.1

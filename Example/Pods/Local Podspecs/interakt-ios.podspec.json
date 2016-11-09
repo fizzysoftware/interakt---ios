@@ -1,0 +1,22 @@
+{
+  "name": "interakt-ios",
+  "version": "0.1.0",
+  "summary": "A short description of interakt-ios.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/interakt-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nazish Ali": "nazish.ali@quickli.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/interakt-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "interakt-ios/Classes/**/*"
+}

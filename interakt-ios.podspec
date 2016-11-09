@@ -9,29 +9,25 @@
 Pod::Spec.new do |s|
   s.name             = 'interakt-ios'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of interakt-ios.'
+  s.summary          = 'The Interakt iOS SDK, for integrating Interakt into your iOS application.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/interakt-ios'
+  s.homepage         = 'https://github.com/fizzysoftware/interakt-ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Nazish Ali' => 'nazish.ali@quickli.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/interakt-ios.git', :tag => s.version.to_s }
+  s.author           = { 'fizzysoftware' => 'aggarwalsudhanshu@gmail.com' }
+  s.source           = { :git => 'https://github.com/fizzysoftware/interakt-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'interakt-ios/Classes/**/*'
-  
+  s.vendored_frameworks = 'interakt-ios/**/Interakt.framework'
+  s.resource = 'interakt-ios/**/Interakt.bundle'
   # s.resource_bundles = {
   #   'interakt-ios' => ['interakt-ios/Assets/*.png']
   # }

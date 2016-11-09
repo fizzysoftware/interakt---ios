@@ -1,0 +1,6 @@
+framework module interakt_ios {
+  umbrella header "interakt-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
