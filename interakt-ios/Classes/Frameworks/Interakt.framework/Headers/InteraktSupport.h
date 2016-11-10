@@ -2,8 +2,8 @@
 //  InteraktSupport.h
 //  InteraktSDK
 //
-//  Created by Interakt on 14/10/16.
-//  Copyright © 2016 Interakt. All rights reserved.
+//  Created by Quickli on 14/10/16.
+//  Copyright © 2016 Quickli. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

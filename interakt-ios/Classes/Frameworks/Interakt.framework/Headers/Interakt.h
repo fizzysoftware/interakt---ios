@@ -2,8 +2,8 @@
 //  Interakt.h
 //  Interakt
 //
-//  Created by Interakt on 18/10/16.
-//  Copyright © 2016 Interakt. All rights reserved.
+//  Created by Quickli on 18/10/16.
+//  Copyright © 2016 Quickli. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -21,5 +21,8 @@ FOUNDATION_EXPORT const unsigned char InteraktVersionString[];
 #import <Interakt/InteraktFAQViewController.h>
 #import <Interakt/InteraktCategoryViewController.h>
 #import <Interakt/ShowQuestionAnswerViewController.h>
+#import <Interakt/InteractApiCall.h>
+#import <Interakt/ChatViewController.h>
+
 
 
