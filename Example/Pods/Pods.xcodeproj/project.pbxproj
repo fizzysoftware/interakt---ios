@@ -12,7 +12,7 @@
 		3933B81A8BD9D3A4EF8F80FFE92EBF73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		64842E46E4D8E16D00E29C7F0F2677EB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 84473A3F993FC6D6E4389DE390756EC5 /* ReplaceMe.m */; };
 		7E070ECED74E5C7156EDF17514B9963F /* Pods-interakt-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 475B2522FBC3A3EE8A43E162609D7C64 /* Pods-interakt-ios_Tests-dummy.m */; };
-		7EE6E9E91DD492C100682B3B /* Interakt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE6E9E81DD492C100682B3B /* Interakt.framework */; };
+		7E0AADE31DD5A1B3003E5285 /* Interakt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0AADE21DD5A1B3003E5285 /* Interakt.framework */; };
 		A118A3E67CCF99502EB4A16C63AA0C85 /* Pods-interakt-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C801A8DCFBE12620F7FF40D3112142C /* Pods-interakt-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3A25BF2FF025B8078CA1704AF98899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -40,8 +40,8 @@
 		475B2522FBC3A3EE8A43E162609D7C64 /* Pods-interakt-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-interakt-ios_Tests-dummy.m"; sourceTree = "<group>"; };
 		506C8A94C1B853FFC099C1039831E2C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C801A8DCFBE12620F7FF40D3112142C /* Pods-interakt-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-interakt-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7EE6E9DC1DD4603F00682B3B /* Interakt.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Interakt.bundle; sourceTree = "<group>"; };
-		7EE6E9E81DD492C100682B3B /* Interakt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Interakt.framework; sourceTree = "<group>"; };
+		7E0AADE21DD5A1B3003E5285 /* Interakt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Interakt.framework; sourceTree = "<group>"; };
+		7E0AADE41DD5A1C3003E5285 /* Interakt.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Interakt.bundle; sourceTree = "<group>"; };
 		84473A3F993FC6D6E4389DE390756EC5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		87C7C8925DDF01F0AC27ED148D1421A0 /* interakt_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = interakt_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A65AF5D8C5D1EB6C07BF508FC6BFA79 /* Pods-interakt-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-interakt-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE6E9E91DD492C100682B3B /* Interakt.framework in Frameworks */,
+				7E0AADE31DD5A1B3003E5285 /* Interakt.framework in Frameworks */,
 				3933B81A8BD9D3A4EF8F80FFE92EBF73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,7 +154,7 @@
 		7E2D14EE1DD321B100A39F71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7EE6E9E81DD492C100682B3B /* Interakt.framework */,
+				7E0AADE21DD5A1B3003E5285 /* Interakt.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 		7E2D14F01DD321B100A39F71 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7EE6E9DC1DD4603F00682B3B /* Interakt.bundle */,
+				7E0AADE41DD5A1C3003E5285 /* Interakt.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
