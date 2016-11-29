@@ -2,8 +2,8 @@
 //  Interakt.h
 //  Interakt
 //
-//  Created by Quickli on 18/10/16.
-//  Copyright © 2016 Quickli. All rights reserved.
+//  Created by Quickli on 22/11/16.
+//  Copyright © 2016 Fizzy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -15,6 +15,8 @@ FOUNDATION_EXPORT double InteraktVersionNumber;
 FOUNDATION_EXPORT const unsigned char InteraktVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Interakt/PublicHeader.h>
+
+
 #import <Interakt/InteraktSupport.h>
 #import <Interakt/InteraktHelpdeskViewController.h>
 #import <Interakt/DeviceLibrary.h>
@@ -23,6 +25,3 @@ FOUNDATION_EXPORT const unsigned char InteraktVersionString[];
 #import <Interakt/ShowQuestionAnswerViewController.h>
 #import <Interakt/InteractApiCall.h>
 #import <Interakt/ChatViewController.h>
-
-
-

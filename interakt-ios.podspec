@@ -31,9 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
    s.source_files = 'interakt-ios/Classes/**/*'
-# s.vendored_frameworks = 'interakt-ios/**/Interakt.framework'
+   s.vendored_frameworks = 'interakt-ios/**/Interakt.framework'
 
-#s.resource = 'interakt-ios/**/Interakt.bundle'
+  #s.resource = 'interakt-ios/**/Interakt.bundle'
   # s.resource_bundles = {
   #   'interakt-ios' => ['interakt-ios/Assets/*.png']
   # }
