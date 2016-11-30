@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShowQuestionAnswerViewController : UIViewController
+@interface InteraktShowQuestionAnswerViewController : UIViewController
 
 @property(nonatomic, strong)UIColor *barTintColor;
 @property(nonatomic, strong)UIColor *tintColor;

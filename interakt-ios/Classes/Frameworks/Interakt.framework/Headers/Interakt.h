@@ -22,6 +22,6 @@ FOUNDATION_EXPORT const unsigned char InteraktVersionString[];
 #import <Interakt/DeviceLibrary.h>
 #import <Interakt/InteraktFAQViewController.h>
 #import <Interakt/InteraktCategoryViewController.h>
-#import <Interakt/ShowQuestionAnswerViewController.h>
+#import <Interakt/InteraktShowQuestionAnswerViewController.h>
 #import <Interakt/InteractApiCall.h>
-#import <Interakt/ChatViewController.h>
+#import <Interakt/InteraktChatViewController.h>
