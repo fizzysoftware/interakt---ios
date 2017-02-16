@@ -20,7 +20,7 @@
 
 @property (nonatomic, strong) NSString *apiKey;
 @property (nonatomic, strong) NSString *appID;
-
+@property BOOL isGrid;
 /** Returns an instance of Interakt
  *
  * When calling any Interakt instance method you must use sharedInstance. 
@@ -46,6 +46,6 @@
 
 
 
-- (void)setColorConfigurationWithBarBackgroundColor:(UIColor *)navigationBarTintColor  titleColor:(UIColor *)titleColor tintColor:(UIColor *)tintColor sendQueryButtonTitleColor:(UIColor *)queryColorButton andSendQueryButtonBackgroundColor:(UIColor *)queryBackGroundColor;
+- (void)setColorConfigurationWithBarBackgroundColor:(UIColor *)navigationBarTintColor  titleColor:(UIColor *)titleColor tintColor:(UIColor *)tintColor sendQueryButtonTitleColor:(UIColor *)queryColorButton sendQueryButtonBackgroundColor:(UIColor *)queryBackGroundColor andIsGrid:(BOOL)isGrid;
 
 @end

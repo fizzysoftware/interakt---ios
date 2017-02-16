@@ -14,6 +14,7 @@
 @property(nonatomic, strong)UIColor *titleColor;
 //@property(nonatomic, strong)UIColor *sendButtonBackgroundColor;
 @property(nonatomic, strong)UIColor *sendButtonTitleColor;
+@property BOOL isGrid;
 
 
 @end
